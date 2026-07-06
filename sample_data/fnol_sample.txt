@@ -1,0 +1,52 @@
+FIRST NOTICE OF LOSS (FNOL) REPORT
+=====================================
+
+Claim Number: CL-2026-07842
+Date of Loss: 2026-06-15
+Date Reported: 2026-06-16
+Reported By: John Smith, Broker
+
+INSURED INFORMATION
+------------------
+Named Insured: ABC Manufacturing Co., Ltd.
+Policy Number: CGL-2026-88921
+Policy Period: 2026-01-01 to 2026-12-31
+Insured Location: 123 Industrial Park Road, Building 4, Shenzhen, China
+
+LOSS DETAILS
+-----------
+Cause of Loss: Fire damage to warehouse storage area
+Loss Location: Warehouse B, same insured location
+Description: On June 15, 2026 at approximately 14:30, a fire broke out in Warehouse B storage area.
+The sprinkler system activated and the fire department responded within 15 minutes.
+The fire was contained to a 200 sqm section of the 1000 sqm warehouse.
+
+DAMAGES REPORTED
+---------------
+Building Damage: Smoke and water damage to walls, ceiling, and flooring in affected area.
+Estimated repair cost: ¥350,000
+Inventory/Contents Damage: Raw materials and finished goods destroyed by fire and water.
+Estimated value: ¥520,000
+Business Interruption: Operations suspended for 3 days. Estimated loss: ¥180,000
+Total Estimated Loss: ¥1,050,000
+
+INJURIES
+--------
+No injuries reported. All employees were evacuated safely.
+
+WITNESSES
+--------
+Zhang Wei, Warehouse Manager - Present at time of incident
+Li Ming, Forklift Operator - First to notice smoke
+
+POLICE / FIRE DEPARTMENT
+------------------------
+Fire Department Report #: FD-2026-0615-003
+Responding Station: Nanshan Fire Station No. 3
+Fire Cause (Preliminary): Electrical fault in storage area lighting circuit
+
+IMMEDIATE ACTIONS TAKEN
+-----------------------
+- Emergency cleanup crew engaged (June 16)
+- Temporary storage arranged at neighboring facility
+- Insurance adjuster requested site inspection

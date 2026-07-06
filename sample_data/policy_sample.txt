@@ -1,0 +1,42 @@
+POLICY WORDING — COMMERCIAL GENERAL LIABILITY
+=============================================
+Policy Number: CGL-2026-88921
+Insured: ABC Manufacturing Co., Ltd.
+
+SECTION I — COVERAGES
+---------------------
+
+COVERAGE A — PROPERTY DAMAGE
+The insurer will pay for direct physical loss of or damage to Covered Property
+at the premises described in the Declarations caused by or resulting from any
+Covered Cause of Loss.
+
+Covered Causes of Loss include: Fire, Lightning, Explosion, Windstorm, Hail,
+Smoke, Aircraft or Vehicles, Riot or Civil Commotion, Vandalism, Sprinkler
+Leakage, Sinkhole Collapse, Volcanic Action.
+
+Limit of Liability: ¥2,000,000 per occurrence
+Deductible: ¥50,000 per occurrence
+
+COVERAGE B — BUSINESS INTERRUPTION
+The insurer will pay for the actual loss of Business Income sustained due to
+the necessary suspension of operations during the period of restoration.
+
+Waiting Period: 24 hours
+Limit of Liability: ¥500,000 per occurrence
+Period of Restoration: Up to 30 days
+
+EXCLUSIONS
+----------
+1. Earth Movement
+2. Flood (can be bought back by endorsement)
+3. War and Military Action
+4. Nuclear Hazard
+5. Intentional Acts by Insured
+6. Wear and Tear / Gradual Deterioration
+
+SPECIAL CONDITIONS
+------------------
+- Sprinkler system must be maintained and tested annually
+- Electrical systems must be inspected every 2 years by qualified electrician
+- Storage of flammable materials must comply with local fire code

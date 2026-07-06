@@ -1,0 +1,64 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app/backend
+      - ./sample_data:/app/sample_data
+      - uploads:/app/uploads
+      - outputs:/app/outputs
+    env_file:
+      - .env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    command: uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./frontend:/app/frontend
+      - ./backend:/app/backend
+      - uploads:/app/uploads
+      - outputs:/app/outputs
+    env_file:
+      - .env
+    depends_on:
+      - backend
+    command: streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  celery_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/app/backend
+      - uploads:/app/uploads
+      - outputs:/app/outputs
+    env_file:
+      - .env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+      - backend
+    command: celery -A backend.app.tasks worker --loglevel=info --concurrency=2
+
+volumes:
+  uploads:
+  outputs:
